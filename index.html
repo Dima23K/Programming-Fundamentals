@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<head>
+	<title>My own shopping list</title>
+</head>
+<body>
+
+<h1>My Shopping list & Calculator</h1>
+<p><i>The app allow you to create a list of what items you need to purchase at the grocery store, but it also lets you keep a running tab of the groceries you currently have in your cabinets to avoid the dreaded double purchase. To keep an organized inventory in the midst of a busy lifestyle, we recommend Free Shopping List Ease for peace of mind.</i></p>
+<div id="app">
+  <form id="form">
+    <input type="text" placeholder="add a product" id="inputText" required></input>
+    <button type="submit">Add</button>
+  </form>
+  <ul id='list'></ul>
+</div>
+
+<div class="Calc">
+
+  <table border="1">
+
+    <tr>
+
+      <td colspan="4"><input type='text' onkeypress='validate(event)' id="result" /></td>
+
+    </tr>
+
+    <tr>
+
+      <td id="one">1</td>
+
+      <td id="two">2</td>
+
+      <td id="three">3</td>
+
+      <td id="Division">/</td>
+
+    </tr>
+
+    <tr>
+
+
+      <td id="four">4</td>
+
+      <td id="five">5</td>
+
+      <td id="six">6</td>
+
+      <td id="Multiplication">*</td>
+
+    </tr>
+
+    <tr>
+
+      <td id="seven">7</td>
+
+      <td id="eight">8</td>
+
+      <td id="nine">9</td>
+
+      <td id="Subtraction">-</td>
+
+    </tr>
+
+    <tr>
+
+      <td id="dot">.</td>
+
+      <td id="zero">0</td>
+
+      <td id="equal">=</td>
+
+      <td rowspan="2" id="Addition">+</td>
+
+    </tr>
+
+    <tr>
+
+      <td id="on">On</td>
+
+      <td id="off">Off</td>
+
+      <td id="del">Del</td>
+
+    </tr>
+
+  </table>
+
+</div>
+
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
